@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mobile App Developer Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .fade-up {
+      opacity: 0;
+      transform: translateY(40px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+    .fade-up.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-900 font-sans">
+
+  <!-- HERO SECTION -->
+  <section class="min-h-screen flex flex-col justify-center items-center text-center bg-gradient-to-br from-blue-700 via-blue-600 to-teal-500 text-white fade-up">
+    <h1 class="text-5xl md:text-6xl font-extrabold mb-4">Hi, I’m <span class="text-teal-300">Mikal Dillard</span></h1>
+    <p class="text-lg md:text-xl mb-6 max-w-2xl">I build pixel-perfect, high-performance mobile apps for iOS & Android — combining creativity, performance, and user delight.</p>
+    <div class="flex gap-4">
+      <a href="#portfolio" class="px-6 py-3 bg-teal-300 text-blue-900 rounded-lg font-semibold hover:bg-teal-400 transition">View My Work</a>
+      <a href="#contact" class="px-6 py-3 bg-white/20 border border-white rounded-lg font-semibold hover:bg-white/30 transition">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="py-20 px-6 md:px-20 bg-gray-50 fade-up">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+      <img src="assets/profile.jpg" alt="Profile" class="rounded-2xl shadow-lg">
+      <div>
+        <h2 class="text-3xl font-bold mb-4 text-blue-900">About Me</h2>
+        <p class="text-gray-700 mb-6">I’m a passionate mobile app developer with over 4 years of experience, specializing in Flutter, iOS, and Android. I love building clean, functional, and visually stunning apps that users enjoy using.</p>
+        <div class="grid grid-cols-3 gap-4">
+          <div class="bg-white p-4 rounded-lg shadow text-center hover:scale-105 transition">
+            <p class="font-bold text-xl text-blue-700">4+</p>
+            <p class="text-sm text-gray-500">Years Experience</p>
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow text-center hover:scale-105 transition">
+            <p class="font-bold text-xl
